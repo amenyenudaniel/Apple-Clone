@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a:hover{
+  color: unset;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.header--img {
+  width: 100%;
+  height: 80vh;
+  cursor: pointer;
+  z-index: 3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/iphone14.jpg);
+}
+
+.header2--img {
+  width: 100%;
+  height: 90vh;
+  cursor: pointer;
+  z-index: 3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/apple--phone.jpg);
+}
+
+.header3--img {
+  width: 100%;
+  height: 90vh;
+  z-index: 3;
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/apple--watch.jpg);
+}
+
+
+
+.main--img {
+  width: 100%;
+  height: 90vh;
+  cursor: pointer;
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/ipad.jpg);
+}
+
+.main2--img {
+  width: 100%;
+  height: 90vh;
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/laptop.jpg);
+}
+
+
+.main3--img {
+  width: 100%;
+  height: 90vh;
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/mic.jpg);
+}
+
+
+.main4--img {
+  width: 100%;
+  cursor: pointer;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  background-image: url(./assets/fitness.jpg);
+}
+
+.main5--img {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(./assets/b--ball.jpg);
+}
+
+.first__header {
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(./assets/header--img.jpg);
+}
+
+
+.second__header {
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(./assets/hero.jpg);
+}
+
+
+.main6--img {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .7rem;
+  cursor: pointer;
+  background-position: center;
+  background-image: url(./assets/card.jpg);
+}
+
+.about--img {
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(-25%);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+

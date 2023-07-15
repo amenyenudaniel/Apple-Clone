@@ -1,0 +1,35 @@
+.app__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.app__links a {
+  color: rgb(0, 102, 204);
+  letter-spacing: inherit;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 1.23536;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.app__links a:hover {
+  color: none;
+  text-decoration: underline  rgb(0, 102, 204);
+}
+
+.greater--than {
+  margin-left: 5px;
+  font-size: inherit;
+  margin-right: 1rem;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  margin-left: 10px;
+  font-size: .7rem;
+  color: rgb(0, 102, 204);
+}

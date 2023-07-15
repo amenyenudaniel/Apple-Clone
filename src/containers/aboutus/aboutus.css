@@ -1,0 +1,40 @@
+.app__aboutus {
+  padding: 1rem 5rem;
+  min-width: 100%;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.app__aboutus-content {
+  color: #6e6e73;
+  text-align: inherit;
+  box-sizing: content-box;
+  pointer-events: auto;
+  letter-spacing: normal;
+  margin: 0px;
+  padding-bottom: 12px;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+  "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app__aboutus-content span {
+  text-decoration: underline black;
+  cursor: pointer;
+}
+
+.underline--content {
+  margin-top: .5rem;
+  width: 100%;
+  border-bottom: 1px solid #c5c2c2;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__aboutus {
+    padding: 1rem 1rem;
+  }
+}

@@ -1,0 +1,146 @@
+.app__navbar {
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
+  padding: 3px 6rem;
+  background-color: rgba(22, 22, 23, 0.8);
+  background-blend-mode: color-burn;
+  display: flex;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  -webkit-backdrop-filter: saturate(180%) blur(20px); 
+  backdrop-filter: saturate(180%) blur(20px);
+  z-index: 100;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.apple__logo{
+  color: #c7c7c7;
+  cursor: pointer;
+}
+
+.search__logo {
+  font-size: 20px;
+  margin-right: 2rem;
+}
+.menu2 {
+  font-size: 30px;
+  display: none;
+  color: #d3d3d3;
+}
+
+.search__logo,
+.bag__logo {
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+.big__screen-links {
+  font-size: 12px;
+  text-decoration: none;
+  display: flex;
+  color: #b1b0b0;
+  align-items: center;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  height: 44px;
+  outline-offset: -7px;
+  transition: color 0.32s cubic-bezier(0.4, 0, 0.6, 1) 0s;
+}
+
+.big__screen-links:hover {
+  opacity: .8;
+  color: #b1b0b0;
+}
+.app__navbar-smallscreen {
+  display: none;
+}
+
+.app__navbar-overlay {
+  transition: 1s ease;
+  width: 100%;
+  background-color: #3d3d3d;
+  height: 100%;
+  z-index: 999;
+  position: fixed;
+}
+
+.close__overlay {
+  cursor: pointer;
+  font-size: 2rem;
+  float: right;
+  color: white;
+  margin-right: 2rem;
+  margin-top: .7rem;
+}
+
+.app__navbar-smallscreen__links {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+}
+
+.app__navbar-smallscreen__links a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.app__navbar-smallscreen__links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.app__navbar-smallscreen__links li {
+  margin-top: 0.7rem;
+}
+
+
+@media screen and (max-width: 830px) {
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+
+  .big__screen-links {
+    display: none;
+  }
+
+  .nav__icons {
+    margin-left: auto;
+    display: flex;
+    padding: .1rem 0;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .bag__logo {
+    margin-right: 2rem;
+  }
+
+  .app__navbar-smallscreen__links {
+    display: flex;
+  }
+  .app__navbar {
+    display: flex;
+    padding: .35rem 2rem;
+  }
+  .menu2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .apple__logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+}

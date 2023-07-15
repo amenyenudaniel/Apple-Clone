@@ -1,0 +1,155 @@
+.app__main-card {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  padding-top: 2rem;
+  
+}
+
+.app__main-card h1 {
+  font-weight: bolder;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.app__main-card h5 {
+  font-size: 1.5rem;
+  opacity: .9;
+  margin-bottom: 1rem;
+}
+
+.app__main2-card {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  padding-top: 2rem;
+ 
+}
+
+.app__main2-card h1 {
+  font-weight: bolder;
+  font-size: 3.4rem;
+  color: white;
+}
+
+.app__main2-card h5 {
+  opacity: .8;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.app__main3-card {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  padding-top: 2rem;
+ 
+}
+
+.app__main3-card h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+}
+
+.app__main3-card h5 {
+  opacity: .8;
+  
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.app__main4-card {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  padding-top: 2rem;
+ 
+}
+
+.app__main4-card img {
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.app__main4-card h5 {
+  opacity: .8;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+
+.app--link--white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.app--link--white a {
+  color: white;
+  letter-spacing: inherit;
+  font-size: 20px;
+  line-height: 1.23536;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.app--link:hover {
+  text-decoration: underline  white;
+}
+
+.sign--btn {
+  margin-left: 5px;
+  margin-right: 1rem;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  margin-left: 10px;
+  font-size: .7rem;
+  color: white;
+}
+
+
+
+.app__main6-card {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  padding-top: 2rem;
+ 
+}
+
+.app__main6-card img {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.app__main6-card h5 {
+  opacity: .8;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: black;
+}
+
+
+.app__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem 1rem;
+}
+
+@media screen and (max-width: 760px) {
+  .app__main {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
